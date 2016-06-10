@@ -1,0 +1,15 @@
+{
+  "name": "graphql-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-parser": "jison ./grammar/type.jison",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jison": "^0.4.17"
+  }
+}
