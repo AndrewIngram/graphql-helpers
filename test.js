@@ -11,9 +11,6 @@ type Product {
 `), {depth: null});
 
 console.dir(exec(`
-'''
-Description of product type
-'''
 type Product {
   id: ID!
 }
